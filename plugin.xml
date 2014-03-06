@@ -14,9 +14,9 @@
             <uses-permission android:name="android.permission.SEND_SMS" />
             <uses-permission android:name="android.permission.RECEIVE_SMS" />
         </config-file>
-        <source-file src="src/android/SMS.java" target-dir="src/org/apache/cordova/sms/SMS" />
-        <source-file src="src/android/SMSSender.java" target-dir="src/org/apache/cordova/sms/SMS" />
-        <source-file src="src/android/SMSReceiver.java" target-dir="src/org/apache/cordova/sms/SMS" />
+        <source-file src="src/android/SMS.java" target-dir="src/org/apache/cordova/sms" />
+        <source-file src="src/android/SMSSender.java" target-dir="src/org/apache/cordova/sms" />
+        <source-file src="src/android/SMSReceiver.java" target-dir="src/org/apache/cordova/sms" />
 
     </platform>
 </plugin>
